@@ -1,0 +1,119 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    font-family: "sans-serif";
+
+    p{
+        font-size: 19px;
+        font-family: "lato";
+        line-height: 32.3px;
+    
+    }
+}
+header{
+    height: 329px;
+    background:#2C3037;
+    margin: 0px;
+    padding: 10px;
+    position: relative;
+    z-index: 3;
+
+    
+
+    h1,h2{
+        text-align: center;
+    }
+    h1{
+        color:#69D9F8;     
+        font-size: 50px;
+        line-height: 31px;
+        margin-top: 100px;
+        text-shadow: black 0 0 20px;
+    }
+
+    h2{
+        color: #ccc;
+        font-size: 35px;
+        font-family: "mono";
+        font-weight: 100;
+    }
+}
+
+main{
+    width: 80%;
+    height: 100vh;
+    float: left;
+    margin-left: auto;
+    margin-right: auto;
+
+    section{
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 700px;
+
+        h1{
+            font-family: monospace;
+            font-size: 27px;
+            margin-top: 70px;
+        }
+
+        img{
+            height: 420px;
+            width: 100%
+        }
+    }
+}
+
+aside{
+    height: 100vh;
+    background-color: #F7F7F7;
+    width: 20%;
+    float: right;
+    max-width: 400px;
+    margin: 0px;
+    position: fixed;
+    top: 0px;
+    left: 80vw;
+    z-index: 2;
+
+    ul{
+        list-style: none;
+        margin-top: 45px;
+        li{
+            color: #1a1a1a;
+            margin-bottom: 19px;
+            cursor: pointer;
+            font-size: 15px;
+            text-transform: uppercase;
+            margin-left: 13px;
+            
+            a{
+                text-decoration: none;
+                color: inherit;
+            }
+            
+        }
+
+        li:hover{
+            color:#6d6d6d;
+           
+            
+            
+        }
+    }
+}
+
+
+code{
+    position: relative;
+    left: -199px;
+    color: rgb(1, 14, 49);
+    font-size: 16px;
+}
+
+#structure, #commands{
+    padding-top: 50px;
+    margin-top: -50px;
+}
+
